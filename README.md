@@ -1,5 +1,4 @@
 # typescript-cli-starter
----
 Basic typescript starter template for building command line applications
 
 Uses:
@@ -9,24 +8,23 @@ Uses:
   - [gts](https://github.com/google/gts) Google Typescript Style Guide
 
 # usage
----
-## start
+**start**
 `npm run start`
 Runs the CLI application
 
-## test
+**test**
 `npm run test`
 Builds and run the unit tests
 
-## lint
+**lint**
 `npm run lint`
 Runs lint on the source code
 
-## fix
+**fix**
 `npm run fix`
 Fixes lint errors automatically
 
-## bundle
+**bundle**
 `npm run bundle`
 Builds and bundles into native executables for Windows, Mac and Linux
 The shareable executables will be in the ./exec/ directory
