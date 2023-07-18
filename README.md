@@ -9,22 +9,27 @@ Uses:
 
 # usage
 **start**
+
 `npm run start`
 Runs the CLI application
 
 **test**
+
 `npm run test`
 Builds and run the unit tests
 
 **lint**
+
 `npm run lint`
 Runs lint on the source code
 
 **fix**
+
 `npm run fix`
 Fixes lint errors automatically
 
 **bundle**
+
 `npm run bundle`
 Builds and bundles into native executables for Windows, Mac and Linux
 The shareable executables will be in the ./exec/ directory
