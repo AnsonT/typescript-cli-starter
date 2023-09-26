@@ -1,8 +1,12 @@
 import yargs from 'yargs'
 import {hideBin} from 'yargs/helpers'
-import {add} from './doSomeStuff'
+import {env, loadEnv} from './env.js'
+import {add} from './doSomeStuff.js'
+import process from 'process'
 
 function main() {
+  loadEnv()
+
   const argv = yargs(hideBin(process.argv)).parseSync()
   const args = argv._
   if (args.length !== 2) {
